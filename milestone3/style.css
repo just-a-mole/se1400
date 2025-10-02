@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0,175px) minmax(0px, 1fr));
+}
+
+nav {
+    grid-row: 2 / 3;
+    grid-column: 2 / -2;    
+    height: 100px;    
+    background-color: blue;
+}
+
+#homehero {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+main {
+    grid-row: 4 / 5;
+    grid-column: 2 / -2;
+    height: 400px;
+    background-color: aqua;
+}
+
+footer {
+    grid-row: 5 / 6;
+    grid-column: 2 / -2;
+    height: 100px;
+    background-color: brown;
+}
